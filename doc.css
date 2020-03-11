@@ -1,0 +1,344 @@
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #beabab;
+}
+
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+  padding: 0 119px;
+}
+
+.main-menu {
+  display: flex;
+  list-style: none;
+  padding: 0 286px;
+}
+.main-menu li {
+  padding: 0 8px 0 8px;
+}
+
+.dropdown-menu {
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+}
+#color {
+  color: #00c4c5;
+}
+.color2 {
+  color: #84b39b;
+}
+.color2:hover {
+  color: #00c4c5;
+}
+
+.dropdown-menu:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 200px;
+  top: 30px;
+  left: -110px;
+  -webkit-box-shadow: 5px 5px 9px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 9px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 9px -5px rgba(0, 0, 0, 0.75);
+  padding: 0 12px 32px 0;
+}
+
+.dropdown-content li {
+  padding-top: 12px;
+}
+header {
+  position: fixed;
+  top: 0%;
+  border: 1px solid white;
+  background-color: white;
+  z-index: 1
+}
+
+/* main*/
+
+
+main {
+  margin-top: 100px;
+}
+.main-log{
+    text-align: center;
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-size: 30px;
+    font-size: x-large;
+}
+.container {
+  top: 100px;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.container-part {
+  
+  flex: 1;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.card{
+    border:1px solid blue;
+    margin-top:100px;
+    color:white;
+    padding:5px 0 0 30px;
+    align-items: flex-start;
+
+
+}
+
+.card-patient{
+    background-color: #00CCB1;
+    border-radius: 21px;
+}
+
+.card-doctor{
+    background-color: #3D83DF;
+    color:white;
+    border-radius: 21px;
+}
+.adress-container{
+    display: flex;
+    margin-left:-80px
+    margin-top:-332px;
+}
+.general-infos-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.Docplanner-sygnet {
+  display: flex;
+  justify-content: center;
+}
+.general-infos-container h1 {
+  text-align: center;
+  color: rgb(0, 197, 155);
+  font-size: 2.125rem;
+}
+.discreption-container {
+  display: flex;
+}
+.services-container {
+  display: flex;
+}
+.services-container h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 6%;
+  color: hsla(0, 0%, 100%, 0.7);
+}
+.services-container h1 {
+  margin-left: 6%;
+  color: white;
+}
+.countries-existing {
+  margin-left: 6%;
+  padding: 3%;
+  border-radius: 10px;
+}
+.services-container-for-patients {
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 44%;
+  background-color: rgb(0, 204, 177);
+  overflow: hidden;
+}
+.services-container-for-patients-image {
+  display: block;
+  margin-block-start: -4em;
+  margin-block-end: 3em;
+  margin-inline-start: 15px;
+  margin-inline-end: 100px;
+}
+.services-container-for-patients-image img {
+  width: 100%;
+  margin-left: 57%;
+}
+.services-container-for-doctors {
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 44%;
+  background-color: rgb(61, 131, 223);
+  overflow: hidden;
+}
+.services-container-for-doctors-image {
+  display: block;
+  margin-block-start: -4em;
+  margin-block-end: 3em;
+  margin-inline-start: 15px;
+  margin-inline-end: 100px;
+}
+.services-container-for-doctors-image img {
+  width: 100%;
+  padding: 16%;
+  margin-left: 32%;
+}
+.adress-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: inherit;
+}
+.adress-container h1 {
+  color: rgb(0, 204, 177);
+  width: 30%;
+  padding: 0px 135px;
+  font-size: 20px;
+}
+.adress-list-of-links {
+  width: 70%;
+  margin-left: 10%;
+}
+.adress-list-of-links ul {
+  list-style-type: none;
+  line-height: 3;
+  margin: 10;
+  padding: 10;
+  overflow: hidden;
+}
+.adress-list-of-links li {
+  float: left;
+  margin-right: 15px;
+}
+.adress-list-of-links li a {
+  color: rgb(196, 196, 196);
+  text-decoration: none;
+}
+.adress-list-of-links img {
+  height: 22px;
+}
+.stats-container {
+  background: linear-gradient(80deg, white, rgb(0, 204, 177));
+  display: flex;
+  height: 380px;
+  padding: 4%;
+  overflow: hidden;
+  font-size: small;
+}
+svg{
+    fill:#dbdbdb;
+}
+.introduction-box {
+  width: 30%;
+}
+.introduction-box h1 {
+  color: rgb(0, 177, 159);
+
+  margin-bottom: 7%;
+}
+.introduction-box p {
+  opacity: 0.4;
+}
+.introduction-logo img {
+  height: 231px;
+  width: 100%;
+  margin-top: 5%;
+}
+.stats {
+  text-align: center;
+  width: 60%;
+  margin: 0 4% 0 19%;
+}
+.stats h1 {
+  color: rgb(0, 197, 155);
+}
+.stats-box {
+  height: 190px;
+  background-color: white;
+  border-radius: 7%;
+  width: 45%;
+  margin-right: 5%;
+}
+.stats-box-colomn-2 {
+  display: flex;
+  margin-top: 5%;
+}
+.stats-box-colomn-1 {
+  display: flex;
+}
+
+.box-3 p {
+  margin-right: 17%;
+  margin-top: -5%;
+}
+.box-4 p {
+  margin-right: 17%;
+}
+.offices-description {
+  text-align: center;
+}
+.offices-description h1 {
+  color: rgb(0, 197, 155);
+}
+.offices-description p {
+  text-align: center;
+  color: black;
+  opacity: 0.7;
+}
+.offices-colomn-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.offices-colomn-2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
+
+.opening-information {
+  text-align: right;
+  margin-top: -17%;
+}
+.opening-information input {
+  background-color: rgb(61, 131, 223);
+  color: white;
+  height: 31px;
+  border-radius: 15px;
+}
+footer {
+  border-top: 1px solid rgba(196, 196, 196, 0.7);
+  text-align: center;
+  color: black;
+  opacity: 0.7;
+  margin-top: 95px;
+}
+.footer {
+  display: flex;
+  text-align: center;
+  
+}
+.footer p {
+  width: 32%;
+  color: black;
+  opacity: 0.7;
+  margin-left: 15%;
+  margin-bottom: 0.5%;
+}
+.offices-list {
+  width: 50%;
+  margin-left: -20%;
+  margin-top: 1.2%;
+}
+.footer a {
+  text-decoration: none;
+  color: rgb(61, 131, 223);
+}
